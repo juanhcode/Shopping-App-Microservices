@@ -15,7 +15,7 @@ module.exports = async (app) => {
     appEvents(app);
 
     //api
-    customer(app);
+    products(app);
 
     // error handling
     app.use(HandleErrors);
