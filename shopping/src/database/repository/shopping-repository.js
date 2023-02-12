@@ -1,4 +1,4 @@
-const { CustomerModel, ProductModel, OrderModel, CartModel } = require('../models');
+const {OrderModel, CartModel } = require('../models');
 const { v4: uuidv4 } = require('uuid');
 const { APIError, BadRequestError } = require('../../utils/app-errors')
 
